@@ -674,7 +674,7 @@ wheels = [
 
 [[package]]
 name = "cuda-quantum-cu12"
-version = "0.15.1"
+version = "0.16.0"
 source = { registry = "https://pypi.org/simple/" }
 dependencies = [
     { name = "astpretty" },
@@ -693,12 +693,12 @@ dependencies = [
     { name = "scipy" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8e/c7/bbb3307e7502b4640f68d7b3fd732ad8ef58fad0110d2692983519682819/cuda_quantum_cu12-0.15.1-cp311-cp311-manylinux_2_28_aarch64.whl", hash = "sha256:77bb78af44566058cff29904c91b5e9bb7ee5e36d4f8aa7301e9b74f07a8f08f", size = 113268313, upload-time = "2026-08-03T17:14:34.539Z" },
-    { url = "https://files.pythonhosted.org/packages/3d/53/4c2fc7996a1a4a0c8db5df30df7758e2bd0dbfbe50db637c40c7158e61db/cuda_quantum_cu12-0.15.1-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:7d084d650b16af9c639d56a515b96a7316abcf621ddf3e1fdb4dde10554e30d7", size = 125873284, upload-time = "2026-08-03T17:14:39.956Z" },
-    { url = "https://files.pythonhosted.org/packages/44/42/3a4d75bda038439beb8a4091206b9c5774492dcaa15e1bf3bd339bc4291d/cuda_quantum_cu12-0.15.1-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:0bfe3f3571b2451c1ca0cf41adfdb6c0861cd5d74b6eff414982a0f48f55b1de", size = 113271780, upload-time = "2026-08-03T17:14:45.751Z" },
-    { url = "https://files.pythonhosted.org/packages/d1/a1/c646cc9d1006c24ee53a37dc3df342b603fc6b6bf323ae1be46e92f45dd5/cuda_quantum_cu12-0.15.1-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:2ddade14524e67b8a83dfbaf0da0e27f4e8b979d96bfa41ca3e73b7e79177219", size = 125876949, upload-time = "2026-08-03T17:14:50.708Z" },
-    { url = "https://files.pythonhosted.org/packages/fa/f9/d5d572c4618b6f85fe5781b2ee3e361e619932ace503ae02bbe517acb3aa/cuda_quantum_cu12-0.15.1-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:de178c4e44990c94f9dcdb06bb35460f0c6103928b8db3a901e04e9057623274", size = 113276156, upload-time = "2026-08-03T17:14:55.498Z" },
-    { url = "https://files.pythonhosted.org/packages/11/f6/88bac5dc23bdd681a121e8009ed8fc23b36c29d7d52385f65980f3bdc9e5/cuda_quantum_cu12-0.15.1-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:002939d9dce108cee6b4260b7c6ad91df0d303857f01aa336fc6487f9edcb144", size = 125880589, upload-time = "2026-08-03T17:15:00.761Z" },
+    { url = "https://files.pythonhosted.org/packages/3e/25/a7e48aa7ab19190c781b9e0f2570ffbc64c2d8b608555f60f56346f66576/cuda_quantum_cu12-0.16.0-cp311-cp311-manylinux_2_28_aarch64.whl", hash = "sha256:1edba416b41e41507fb4b8bf3467d390e3209794cbd907e5db0c54c44dbaf684", size = 79971637, upload-time = "2026-09-12T09:44:28.505Z" },
+    { url = "https://files.pythonhosted.org/packages/38/44/a471f921bd7fd852fe65e8fd3f4b1bb42aba769250c84293347a7cafb1cf/cuda_quantum_cu12-0.16.0-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:9a9182a36c66ad888e72205db8253fd007e3d5260183231406a905ea82d4e443", size = 92020228, upload-time = "2026-09-12T09:44:38.355Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/9c/04e47dfadd26196a27e212ce9e260983fc328790de8e3491dfabb238155f/cuda_quantum_cu12-0.16.0-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:6a8a4365c552ae3df55c181262ce67d3fc1aca65f7cf0126f0300c8115f0a256", size = 79975514, upload-time = "2026-09-12T09:44:44.141Z" },
+    { url = "https://files.pythonhosted.org/packages/63/8c/2e5a14556d9e031e089e1fb2c8629271918d7ac52d6f05f69b8acdd30aac/cuda_quantum_cu12-0.16.0-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:069240a693c1da8d47ba2d75b926ed78dd01cba726056687d9f8cde880b14046", size = 92022984, upload-time = "2026-09-12T09:44:50.097Z" },
+    { url = "https://files.pythonhosted.org/packages/ce/49/a6e3602bd2b064bff7689ee62ce416c71c8457bac7a4a67af48a558342af/cuda_quantum_cu12-0.16.0-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:bea77a48d6b4e4b7e14e16f7f04081e5c8cf77d58a12017a01818a122757aae5", size = 79979607, upload-time = "2026-09-12T09:44:55.433Z" },
+    { url = "https://files.pythonhosted.org/packages/22/62/9a4b7614c447339e826759a3fb4385d537a25517a048c8586492aec564de/cuda_quantum_cu12-0.16.0-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:fc6449f7f434affcb6033f4ac1c1f23035095db9df36701112df8926eb87e62d", size = 92026186, upload-time = "2026-09-12T09:45:01.131Z" },
 ]
 
 [[package]]
@@ -744,15 +744,15 @@ sdist = { url = "https://files.pythonhosted.org/packages/ea/ca/20369ebe0c3ecb75d
 
 [[package]]
 name = "cudensitymat-cu12"
-version = "0.5.2"
+version = "0.6.0"
 source = { registry = "https://pypi.org/simple/" }
 dependencies = [
     { name = "cutensor-cu12" },
     { name = "cutensornet-cu12" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/18/17/2af6a937b4cec0d4d0f52b0118841a81d9b3a43c945a34cb711fafecaca9/cudensitymat_cu12-0.5.2-py3-none-manylinux2014_aarch64.whl", hash = "sha256:378a90436c3ee13bd55b45d9ced390dd68008e4e722e4c6713432a9b7ef8be88", size = 18701564, upload-time = "2026-04-30T23:56:01.181Z" },
-    { url = "https://files.pythonhosted.org/packages/66/b8/44231de69d6b740acaa1efb4107fc39d41ab081592d50e393c0ea69575d1/cudensitymat_cu12-0.5.2-py3-none-manylinux2014_x86_64.whl", hash = "sha256:c3f7c685da3b77a0df3e94161c1e59904f42eca85d2af77e56d99ac8931236b6", size = 18720020, upload-time = "2026-04-30T23:51:51.541Z" },
+    { url = "https://files.pythonhosted.org/packages/95/5e/e61594390456fc210c75f305ef8bd474fc8eb930e86435eb395ff9b108dd/cudensitymat_cu12-0.6.0-py3-none-manylinux2014_aarch64.whl", hash = "sha256:745a0fa66df4d3d05cb14acc7bf74d00aed7e34cd69c74933dd904fed17dc665", size = 45015051, upload-time = "2026-06-29T20:37:23.044Z" },
+    { url = "https://files.pythonhosted.org/packages/cf/04/19f2ef800bd5fc45527efe96d95d41210e2d935acb2ecb16ff77ed7254c6/cudensitymat_cu12-0.6.0-py3-none-manylinux2014_x86_64.whl", hash = "sha256:ab34d7106c6fba38b2d3e4d8c9a3f9d47f5575a9f0950e8bcffdfbbdfd73fd08", size = 45004017, upload-time = "2026-06-29T20:37:44.009Z" },
 ]
 
 [[package]]
@@ -810,11 +810,11 @@ wheels = [
 
 [[package]]
 name = "custatevec-cu12"
-version = "1.13.1"
+version = "1.14.0"
 source = { registry = "https://pypi.org/simple/" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/dd/1c/3ca3983b416e9f0f9a4da902d4eb69879969a08bc2db05b4e7854fdd6a61/custatevec_cu12-1.13.1-py3-none-manylinux2014_aarch64.whl", hash = "sha256:ee55f85e81cac11c09fbde3b63e64c309279537efbe9fb91b57d5e35cd3b8073", size = 73147948, upload-time = "2026-04-13T18:21:05.772Z" },
-    { url = "https://files.pythonhosted.org/packages/65/c0/4b092e048b44c6658521bbaaca4a08daf964e3a1de1d8fe024c008fa9343/custatevec_cu12-1.13.1-py3-none-manylinux2014_x86_64.whl", hash = "sha256:359626fd842e53fa0d84912bd7c6e2a891ac8b6ea3e490479fba73805425a410", size = 73152910, upload-time = "2026-04-13T18:10:34.608Z" },
+    { url = "https://files.pythonhosted.org/packages/2b/5f/8c63defcc9b57a8c0f9ed9b89fd49fe69b3ac5c923ac06c5e424783d6611/custatevec_cu12-1.14.0-py3-none-manylinux2014_aarch64.whl", hash = "sha256:be8877308b5af440d815d8f768233265354d38f0f84cd38619ca1beb8b16591c", size = 73183432, upload-time = "2026-06-29T20:30:42.093Z" },
+    { url = "https://files.pythonhosted.org/packages/00/a1/a5fcf208e5e2c25eb8861532193102821d80cea36f99c9884a7b4102a4f4/custatevec_cu12-1.14.0-py3-none-manylinux2014_x86_64.whl", hash = "sha256:f5e1c22cface48ee3a6f6067238a91603899fd180c45eb2a7727e957e85825cf", size = 73170563, upload-time = "2026-06-29T20:31:00.039Z" },
 ]
 
 [[package]]
@@ -848,14 +848,14 @@ wheels = [
 
 [[package]]
 name = "cutensornet-cu12"
-version = "2.12.2"
+version = "2.13.0"
 source = { registry = "https://pypi.org/simple/" }
 dependencies = [
     { name = "cutensor-cu12" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c6/21/97630117bc5fd72196915f133bd5de3322cccd893d1ee0a468fe8ae105fd/cutensornet_cu12-2.12.2-py3-none-manylinux2014_aarch64.whl", hash = "sha256:e17cb372d7aa21e8998d6623cfa7d2f94dfd5f127eb520e50ebe91768e0e6005", size = 3099322, upload-time = "2026-04-30T23:31:29.515Z" },
-    { url = "https://files.pythonhosted.org/packages/0f/4b/b47dfe6eda899aa252e197bfe9eb2eb25e6a8fa563588591c715faee88e9/cutensornet_cu12-2.12.2-py3-none-manylinux2014_x86_64.whl", hash = "sha256:1f3fe15974c26da60e5310e786badce3cf2cd3331dbaaf032ab5bc4a5ba61323", size = 3174943, upload-time = "2026-04-30T23:30:31.524Z" },
+    { url = "https://files.pythonhosted.org/packages/7d/e5/903ae715142696da56b159d38cb88496c99c73a25610fe70382321104141/cutensornet_cu12-2.13.0-py3-none-manylinux2014_aarch64.whl", hash = "sha256:50d1de21be4d25ca72ecd249505d12a7fe4e217c83ffdc47ef5355fc75e6cc21", size = 3235639, upload-time = "2026-06-29T20:35:14.451Z" },
+    { url = "https://files.pythonhosted.org/packages/85/31/19b5d91402644c1faf0fe0bc9f7ab98a1c8d29fa10a265fdf1f9e42791e6/cutensornet_cu12-2.13.0-py3-none-manylinux2014_x86_64.whl", hash = "sha256:fac7d794a6fa52709823777d91aee40f7b9a18817c7640fd3f68fc6fcfb2f0f0", size = 3315387, upload-time = "2026-06-29T20:35:35.904Z" },
 ]
 
 [[package]]
@@ -1087,7 +1087,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "cuda-quantum-cu12", specifier = ">=0.13.0,<0.16.0" },
+    { name = "cuda-quantum-cu12", specifier = ">=0.13.0,<0.17.0" },
     { name = "cudaq", specifier = ">=0.13.0,<0.16.0" },
     { name = "devqubit-engine", editable = "packages/devqubit-engine" },
 ]
