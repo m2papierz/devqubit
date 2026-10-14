@@ -29,7 +29,7 @@ classifiers = [
 dependencies = [
     "devqubit-engine>=0.1.12,<0.2.0",
     "devqubit-qiskit>=0.1.12,<0.2.0",
-    "qiskit-ibm-runtime>=0.44,<0.50",
+    "qiskit-ibm-runtime>=0.44,<0.51",
 ]
 
 [project.entry-points."devqubit.adapters"]
