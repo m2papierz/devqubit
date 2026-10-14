@@ -1170,7 +1170,7 @@ dependencies = [
 requires-dist = [
     { name = "devqubit-engine", editable = "packages/devqubit-engine" },
     { name = "devqubit-qiskit", editable = "packages/devqubit-qiskit" },
-    { name = "qiskit-ibm-runtime", specifier = ">=0.44,<0.50" },
+    { name = "qiskit-ibm-runtime", specifier = ">=0.44,<0.51" },
 ]
 
 [[package]]
@@ -1611,7 +1611,7 @@ wheels = [
 
 [[package]]
 name = "ibm-quantum-schemas"
-version = "0.10.20260723"
+version = "0.12.20260921"
 source = { registry = "https://pypi.org/simple/" }
 dependencies = [
     { name = "numpy" },
@@ -1621,9 +1621,9 @@ dependencies = [
     { name = "qiskit-qasm3-import" },
     { name = "samplomatic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e5/6c/d63cdbf8358a5f40be39945c946422771085666dd163b454a236bee525bb/ibm_quantum_schemas-0.10.20260723.tar.gz", hash = "sha256:e3435cd86140bf8e0d2fc09af9e7c3d799adb732928b99dc90079a7372197044", size = 104341, upload-time = "2026-07-23T15:45:37.098Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/60/9c/484fc135dd0ee56b5ac6a8b3e93ba31970b48eea9e1ed9b19adb85957027/ibm_quantum_schemas-0.12.20260921.tar.gz", hash = "sha256:7a4322903efce851f71ee187c56453eaaf156d3ef235133beb242b8b0e2509d4", size = 105082, upload-time = "2026-09-21T15:52:27.468Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ea/6b/f3c4e3910ff5653caf30aa052fe2ff3833a46a50fd1712587b1418efda76/ibm_quantum_schemas-0.10.20260723-py3-none-any.whl", hash = "sha256:265ad9209f34b01d3d85f9c9ca2afb4c757faf0fd062a48e4c9d154515cac281", size = 120650, upload-time = "2026-07-23T15:45:35.625Z" },
+    { url = "https://files.pythonhosted.org/packages/fb/e7/2ff69f90f2c9c0f443503a1c2882ea22a42e9455974ae7175cf52fe2b42d/ibm_quantum_schemas-0.12.20260921-py3-none-any.whl", hash = "sha256:55b81e4e4aa4ed2f1559499032407284bd8bd2bb415cc5a75516478b1c73314f", size = 120748, upload-time = "2026-09-21T15:52:26.21Z" },
 ]
 
 [[package]]
@@ -3266,7 +3266,7 @@ wheels = [
 
 [[package]]
 name = "qiskit-ibm-runtime"
-version = "0.49.0"
+version = "0.50.0"
 source = { registry = "https://pypi.org/simple/" }
 dependencies = [
     { name = "ibm-platform-services" },
@@ -3276,15 +3276,31 @@ dependencies = [
     { name = "pydantic" },
     { name = "python-dateutil" },
     { name = "qiskit" },
+    { name = "qiskit-mitigation" },
     { name = "requests" },
     { name = "requests-ntlm" },
     { name = "samplomatic" },
     { name = "scipy" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5b/ef/b6845813b5d45da702a6ef06a67cb7a236b11a8b9a440339c8ac7b28c499/qiskit_ibm_runtime-0.49.0.tar.gz", hash = "sha256:f300eec48784afc5ce4be2691f1bd63ba7905ae4c0702c822e699376aa39432c", size = 2107733, upload-time = "2026-08-10T16:43:43.929Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/fd/06/bc058998ce6da8734bf53c1b9a0f008388f2826c99f93b293a13ed7614a7/qiskit_ibm_runtime-0.50.0.tar.gz", hash = "sha256:50725dcc5a556ecd2e824a678e2aa66efca9f609836e458c51dc66c5728b2aa6", size = 3752709, upload-time = "2026-09-24T18:24:37.866Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/78/32/c8a84aa1ca3308f7c04b660586341df7a6959d7730073abda0ff1c8d4a21/qiskit_ibm_runtime-0.49.0-py3-none-any.whl", hash = "sha256:b29b4a0a5e013b6e6fd6556158fd34a05e2930dea870c60edef738b834977f2b", size = 2001333, upload-time = "2026-08-10T16:43:42.283Z" },
+    { url = "https://files.pythonhosted.org/packages/7a/73/a30759b3b57d71fa25eb62364de40fa56c53f3f958f9a027b107842916cc/qiskit_ibm_runtime-0.50.0-py3-none-any.whl", hash = "sha256:d49e0ede6d0500587b9afce25c83195c9ba4b588c337a690650e133198d8f42d", size = 1979761, upload-time = "2026-09-24T18:24:35.891Z" },
+]
+
+[[package]]
+name = "qiskit-mitigation"
+version = "0.1.1"
+source = { registry = "https://pypi.org/simple/" }
+dependencies = [
+    { name = "numpy" },
+    { name = "qiskit" },
+    { name = "samplomatic" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5b/67/efd5d910918201d1e846ff4cf906acb961b7e38b4dd308ccd06f14dabd94/qiskit_mitigation-0.1.1.tar.gz", hash = "sha256:d527ed3e5a511720394812d628163e19f67e916434e01beb96caf76b34d12ad8", size = 1839761, upload-time = "2026-09-24T17:52:33.782Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5c/92/70f86bedb10f6dbb00e1f018b1b10538a7614bfd5830bc585a57cddca7f4/qiskit_mitigation-0.1.1-py3-none-any.whl", hash = "sha256:a99c9a9b67a734675ff1f3a1cefdefe06507761b8771e87b1d10fcc9a812f7b0", size = 113312, upload-time = "2026-09-24T17:52:31.338Z" },
 ]
 
 [[package]]
@@ -3518,7 +3534,7 @@ wheels = [
 
 [[package]]
 name = "samplomatic"
-version = "0.20.0"
+version = "0.21.0"
 source = { registry = "https://pypi.org/simple/" }
 dependencies = [
     { name = "numpy" },
@@ -3527,9 +3543,9 @@ dependencies = [
     { name = "qiskit" },
     { name = "rustworkx" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/67/0e/a8e7a2206fb53378ff72a02a94ada414c798344f11aa7ebc23b2fe59adf0/samplomatic-0.20.0.tar.gz", hash = "sha256:5e5858d6c329c45e7e851fc57e586bcb44b85f46fb02e3c6a636e7f420cefa26", size = 1233481, upload-time = "2026-06-23T13:49:29.175Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/39/da/2e6c551ec17da320b0620fa00fa216cd8800d26ddc8d4469e65d6450fb74/samplomatic-0.21.0.tar.gz", hash = "sha256:9f903870ff269456f4f28d93154ad65f8a5a2398102f1beee8a3f20d7c03502e", size = 1253951, upload-time = "2026-08-25T19:15:26.107Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d3/4e/2cb2a39d5c82b15c35e14d54b4685d11e8e96eb07a01e15fa1e7c3bada4b/samplomatic-0.20.0-py3-none-any.whl", hash = "sha256:c6faf4d94f4e6ae5cd0a1fecb6035d9da3a91b6ccbd8a4d515703f6e9704a85e", size = 224205, upload-time = "2026-06-23T13:49:27.831Z" },
+    { url = "https://files.pythonhosted.org/packages/dc/68/387b0f4ac6aae4d0154da1c28bc5834a79b7b1d69f8971a89af690f3bafb/samplomatic-0.21.0-py3-none-any.whl", hash = "sha256:1224b2ff916895c86adca6df7b03234b7dff5502089e6c404ac4e8ac42b110aa", size = 234171, upload-time = "2026-08-25T19:15:24.637Z" },
 ]
 
 [[package]]
